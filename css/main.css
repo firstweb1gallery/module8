@@ -1,0 +1,56 @@
+* { 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+h1 { 
+	color: #5d5d5d;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #3789dc, 0 0 1em white;
+}
+
+img {
+	max-width: 700px;
+	height: auto;
+	width: 100%;
+	display: block;
+	margin: auto;
+	box-shadow: 1px 1px 10px silver, 0 0 1em black;
+}
+
+body {
+	background-color: #8157d8;
+}
+
+div {
+	width: 70%;
+	background-color: black;
+	margin: auto;
+	
+}
+
+p {
+	font-size: 30px;
+	color: white;
+	font-family: 'Fira Mono', monospace;/*'Bad Script', cursive*/;
+
+}
+
+a {
+	font-size: 50px;
+	color: gold;
+	text-decoration: none;
+	display:inline-block;
+	margin: 20px;
+
+	border-bottom: 1px solid transparent;
+	transition: 0.2s ease-in; 
+}
+
+a.hover {
+	border-bottom-color:  #fff1e9;
+}
+
